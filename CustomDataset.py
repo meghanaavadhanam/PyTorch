@@ -9,3 +9,5 @@ class CustomData(Dataset):
         target = self.data[index][-1]
         data_val = self.data[index] [:-1]
         return data_val,target
+        
+#def transforms(self.data)        
